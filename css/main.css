@@ -14,30 +14,69 @@ main {
 }
 
 .left-column {
+  position: relative; /* all the rest content must be absolute */
   width: 40%;
+  height: 468px;
   float: left;
-  background-color: yellow;
+  margin: 20px 0px;
+}
+
+.left-column > img {
+  position: absolute;
+  z-index: -1;
+  width: 320px;
+}
+
+h1.main-title, div.bottom-links {
+  position: absolute;
+}
+
+h1.main-title {
+  top: 25px;
+  left: 50px;
+  background-color: #5483DA;
+  color: white;
+  border-radius: 16px;
+  opacity: 0.9;
+  letter-spacing: 3px;
+}
+
+div.bottom-links {
+  bottom: 25px;
+  left: 50px;
+  background-color: #4B0B99;
+  color: white;
+  border-radius: 8px;
+  padding: 2.5px;
+  opacity: 0.9;
 }
 
 .main-title {
   font-size: 4em;
 }
 
-.bottom-links {
-}
 .bottom-links > a {
-}
-.bottom-links > span {
+  color: white;
 }
 
 .right-column {
   width: 60%;
+  height: 508px;
   float: left;
-  background-color: pink;
+  background-color: white;
+  text-align: right;
 }
 
 .close {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    right: 10px;
+    height: 35px;
+    margin:10px;
+    font-size: 45px;
 }
 
-.form {
-}
+
+
+
