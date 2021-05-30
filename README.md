@@ -10,7 +10,7 @@ _29 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site basis cloned from https://front-end-by-rimantas.github.io/29-grupe-sign-up/
+Site published at https://projektorius96.github.io/4-sign-up-develop/
 
 Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
@@ -25,4 +25,4 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-[Lukas](https://github.com/projektorius96)
+[Lukas G.](https://github.com/projektorius96)
