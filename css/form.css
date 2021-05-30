@@ -1,0 +1,52 @@
+.form {
+    position: relative;
+    margin-top: 50px;
+    padding: 50px 25px;
+    width: 480px; /* 60% of total 800px of MAIN is 480px */
+    background-color: white;
+    text-align: left;
+}
+
+.form-row{
+    margin-left: calc((60%-480) / 2);
+}
+
+label, input {
+    display: block;
+}
+
+.form-row > label {
+    text-transform: uppercase;
+    color: grey
+}
+
+.form-row input {
+    width: 200px;
+    border: none;
+    border-color: transparent;
+    border-bottom: 2px solid silver;
+}
+
+.form-row:last-of-type {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.form-row > button {
+    text-transform: capitalize;
+    padding: 5px 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color:#144DD9;
+    color:white;
+}
+
+.form-row > span {
+    color: grey;
+}
+
+.form-row > a {
+    font-weight: bold;
+    color: #144DD9;
+    font-size: 0.8em;
+}
